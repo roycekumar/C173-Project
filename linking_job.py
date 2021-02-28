@@ -45,12 +45,12 @@ class Chemical(Parent):
 hospital=doctor("Micheal")
 It=IT("Jessica")
 chemic=Chemical("Peter")
-btn_hospital=Button(root,text="Show the hospital alloted",command=hospital.getDoctor())
+btn_hospital=Button(root,text="Show the hospital alloted",command=hospital.getDoctor)
 btn_hospital.place(relx=0.09,rely=0.2,anchor=CENTER)
 
-btn_IT=Button(root,text="Show the IT company alloted",command=It.getmember())
+btn_IT=Button(root,text="Show the IT company alloted",command=It.getmember)
 btn_IT.place(relx=0.1,rely=0.5,anchor=CENTER)
 
-btn_chemical=Button(root,text="Show the chemical company alloted",command=chemic.getmembers())
+btn_chemical=Button(root,text="Show the chemical company alloted",command=chemic.getmembers)
 btn_chemical.place(relx=0.12,rely=0.8,anchor=CENTER)
 root.mainloop()
